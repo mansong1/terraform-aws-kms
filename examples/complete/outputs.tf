@@ -85,7 +85,7 @@ output "external_aliases" {
 output "external_grants" {
   description = "A map of grants created and their attributes"
   value       = module.kms_external.grants
-  sensitive = true
+  sensitive   = true
 }
 
 ################################################################################
